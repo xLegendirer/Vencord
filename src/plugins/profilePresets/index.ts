@@ -229,7 +229,12 @@ async function renderPresetsUI(container: HTMLElement) {
 export default definePlugin({
     name: "ProfilePresets",
     description: "Saves everything and enforces exact Discord API payloads with detailed error catching.",
-    authors: [{ name: "Luciano", id: 0n }],
+    authors: [
+        {
+            name: "Luciano Ferretti (xLegendirer)",
+            id: 832617684285915226n
+        }
+    ],
 
     start() {
         observer = new MutationObserver(() => {
