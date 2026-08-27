@@ -228,12 +228,17 @@ async function renderPresetsUI(container: HTMLElement) {
 
 export default definePlugin({
     name: "ProfilePresets",
-    description: "Saves everything and enforces exact Discord API payloads with detailed error catching.",
+    description: "Save, preview, and seamlessly switch between custom profile presets (Avatar, Banner, Themes, Bio, and Effects) directly inside your Profile settings.",
     authors: [
         {
             name: "Luciano Ferretti (xLegendirer)",
             id: 832617684285915226n
         }
+    ],
+    tags: [
+        "Customisation",
+        "Appearance",
+        "Utility"
     ],
 
     start() {
